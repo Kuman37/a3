@@ -1,6 +1,6 @@
 public abstract class Shape {
     private String id;
-    protected Renderer renderer;
+    private Renderer renderer;
 
     public Shape(String id, Renderer renderer) {
         this.id = id;
@@ -9,6 +9,10 @@ public abstract class Shape {
 
     public String getId() {
         return id;
+    }
+
+    protected Renderer getRenderer() {
+        return renderer;
     }
 
     public void setImplementation(Renderer renderer) {
