@@ -11,6 +11,6 @@ public class Square extends Shape {
     }
 
     public String execute() {
-        return renderer.render("square side=", side);
+        return renderer.render("square", "side", side);
     }
 }

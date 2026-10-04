@@ -11,6 +11,6 @@ public class Circle extends Shape {
     }
 
     public String execute() {
-        return renderer.render("circle radius=", radius);
+        return renderer.render("circle", "radius", radius);
     }
 }
