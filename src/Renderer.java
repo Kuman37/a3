@@ -1,3 +1,3 @@
 public interface Renderer {
-    String render(String shape, int size);
+    String render(String shape, String dimension, int value);
 }
